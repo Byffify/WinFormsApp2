@@ -74,16 +74,16 @@ namespace WinFormsApp2
         // ▶ ไปหน้าสรุปผล
         private void button2_Click(object? sender, EventArgs e)
         {
-            //if (AppState.State.Answers[QuestionIndex] == null)
-            //{
-            //    MessageBox.Show("โปรดเลือกคำตอบก่อน", "ยังไม่ได้เลือก");
-            //    return;
-            //}
+            if (AppState.State.Answers[QuestionIndex] == null)
+            {
+                MessageBox.Show("โปรดเลือกคำตอบก่อน", "ยังไม่ได้เลือก");
+                return;
+            }
 
-            //var result = new FormResult { Owner = this.Owner };
-            //this.Hide();
-            //result.Show();
-            //result.FormClosed += (s, args) => this.Close();
+            var result = new Result { Owner = this.Owner };
+            this.Hide();
+            result.Show();
+            result.FormClosed += (s, args) => this.Close();
         }
 
         private void UpdateNextEnabled()

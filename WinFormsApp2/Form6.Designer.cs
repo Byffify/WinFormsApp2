@@ -42,8 +42,9 @@
             // textBox1
             // 
             textBox1.Location = new Point(0, 0);
+            textBox1.Margin = new Padding(3, 2, 3, 2);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(0, 27);
+            textBox1.Size = new Size(0, 23);
             textBox1.TabIndex = 0;
             // 
             // textBox2
@@ -51,10 +52,11 @@
             textBox2.BackColor = Color.LavenderBlush;
             textBox2.BorderStyle = BorderStyle.None;
             textBox2.Font = new Font("Mali", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 222);
-            textBox2.Location = new Point(22, 295);
+            textBox2.Location = new Point(19, 221);
+            textBox2.Margin = new Padding(3, 2, 3, 2);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(528, 44);
+            textBox2.Size = new Size(462, 33);
             textBox2.TabIndex = 1;
             textBox2.Text = "1.ถ้าวันนี้ว่างหนึ่งวัน คุณอยากทำอะไร?";
             textBox2.TextAlign = HorizontalAlignment.Center;
@@ -63,9 +65,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(22, 12);
+            pictureBox1.Location = new Point(19, 9);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(528, 250);
+            pictureBox1.Size = new Size(462, 188);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
@@ -75,12 +78,14 @@
             // 
             radioButton1.AutoSize = true;
             radioButton1.Font = new Font("Mali", 10.8F);
-            radioButton1.Location = new Point(127, 365);
+            radioButton1.Location = new Point(111, 274);
+            radioButton1.Margin = new Padding(3, 2, 3, 2);
             radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(363, 42);
+            radioButton1.Size = new Size(304, 36);
             radioButton1.TabIndex = 4;
             radioButton1.TabStop = true;
             radioButton1.Text = "A) นัดเพื่อน ออกไปทำกิจกรรมข้างนอก";
+            radioButton1.TextAlign = ContentAlignment.TopLeft;
             radioButton1.UseVisualStyleBackColor = true;
             radioButton1.CheckedChanged += radioButton1_CheckedChanged;
             // 
@@ -88,9 +93,10 @@
             // 
             radioButton2.AutoSize = true;
             radioButton2.Font = new Font("Mali", 10.8F);
-            radioButton2.Location = new Point(127, 445);
+            radioButton2.Location = new Point(111, 334);
+            radioButton2.Margin = new Padding(3, 2, 3, 2);
             radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(268, 42);
+            radioButton2.Size = new Size(225, 36);
             radioButton2.TabIndex = 5;
             radioButton2.TabStop = true;
             radioButton2.Text = "B) อยู่บ้านไม่ออกไปข้างนอก";
@@ -105,10 +111,9 @@
             button1.FlatAppearance.MouseOverBackColor = Color.Silver;
             button1.FlatStyle = FlatStyle.Popup;
             button1.Font = new Font("Cooper Black", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(73, 623);
-            button1.Margin = new Padding(3, 4, 3, 4);
+            button1.Location = new Point(64, 467);
             button1.Name = "button1";
-            button1.Size = new Size(150, 67);
+            button1.Size = new Size(131, 50);
             button1.TabIndex = 7;
             button1.Text = "BACK";
             button1.UseVisualStyleBackColor = false;
@@ -122,20 +127,19 @@
             button2.FlatAppearance.MouseOverBackColor = Color.Silver;
             button2.FlatStyle = FlatStyle.Popup;
             button2.Font = new Font("Cooper Black", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(361, 623);
-            button2.Margin = new Padding(3, 4, 3, 4);
+            button2.Location = new Point(316, 467);
             button2.Name = "button2";
-            button2.Size = new Size(150, 67);
+            button2.Size = new Size(131, 50);
             button2.TabIndex = 6;
             button2.Text = "NEXT";
             button2.UseVisualStyleBackColor = false;
             // 
             // Form6
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.LavenderBlush;
-            ClientSize = new Size(582, 753);
+            ClientSize = new Size(509, 565);
             Controls.Add(button1);
             Controls.Add(button2);
             Controls.Add(radioButton2);
@@ -143,8 +147,8 @@
             Controls.Add(pictureBox1);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "Form6";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form3";
             Load += Form6_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

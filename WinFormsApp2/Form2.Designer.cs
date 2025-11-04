@@ -82,6 +82,7 @@
             Controls.Add(textBox1);
             Margin = new Padding(3, 4, 3, 4);
             Name = "Form2";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form2";
             ResumeLayout(false);
             PerformLayout();
