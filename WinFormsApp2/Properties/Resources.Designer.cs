@@ -73,6 +73,16 @@ namespace WinFormsApp2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap extrovert {
+            get {
+                object obj = ResourceManager.GetObject("extrovert", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap IMG_3855 {
             get {
                 object obj = ResourceManager.GetObject("IMG_3855", resourceCulture);
@@ -86,6 +96,16 @@ namespace WinFormsApp2.Properties {
         internal static System.Drawing.Bitmap inorex_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("inorex-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap introvert {
+            get {
+                object obj = ResourceManager.GetObject("introvert", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
