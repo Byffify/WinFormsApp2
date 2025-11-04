@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp2
 {
-    partial class Form3
+    partial class Form5 : Form
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             pictureBox1 = new PictureBox();
@@ -130,7 +130,7 @@
             button2.Text = "NEXT";
             button2.UseVisualStyleBackColor = false;
             // 
-            // Form3
+            // Form4
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -144,9 +144,9 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Margin = new Padding(3, 4, 3, 4);
-            Name = "Form3";
-            Text = "Form3";
-            Load += Form3_Load;
+            Name = "Form4";
+            Text = "Form4";
+            Load += Form5_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

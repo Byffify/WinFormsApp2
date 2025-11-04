@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp2
 {
-    partial class Form3
+    partial class Form8 : Form
     {
         /// <summary>
         /// Required designer variable.
@@ -146,7 +146,7 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "Form3";
             Text = "Form3";
-            Load += Form3_Load;
+            Load += Form8_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

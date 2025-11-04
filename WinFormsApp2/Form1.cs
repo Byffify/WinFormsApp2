@@ -19,7 +19,6 @@ namespace WinFormsApp2
             // ถ้าต้องการให้กล่องข้อความแก้ไม่ได้ ให้ใช้ ReadOnly
             textBox1.ReadOnly = true;
             textBox2.ReadOnly = true;
-            textBox3.ReadOnly = true;
         }
 
         // EXIT

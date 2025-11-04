@@ -83,6 +83,26 @@ namespace WinFormsApp2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap inorex_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("inorex-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap llogo_rm {
+            get {
+                object obj = ResourceManager.GetObject("llogo_rm", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Mama_instant_noodle_block {
             get {
                 object obj = ResourceManager.GetObject("Mama_instant_noodle_block", resourceCulture);

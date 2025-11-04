@@ -117,4 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>This test is designed to help you gain a deeper understanding of your personality through simple questions about your behavior, feelings, and the way you respond to different social situations.
+
+There are no right or wrong answers. The purpose of this test is to help you understand yourself better and improve your ability to adapt in daily life — whether in learning, working, or building relationships with others.
+
+Are you ready ?
+</value>
+  </data>
 </root>

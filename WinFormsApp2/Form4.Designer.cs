@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp2
 {
-    partial class Form3
+    partial class Form4
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             pictureBox1 = new PictureBox();
@@ -75,7 +75,7 @@
             // 
             radioButton1.AutoSize = true;
             radioButton1.Font = new Font("Mali", 10.8F);
-            radioButton1.Location = new Point(127, 365);
+            radioButton1.Location = new Point(101, 365);
             radioButton1.Name = "radioButton1";
             radioButton1.Size = new Size(363, 42);
             radioButton1.TabIndex = 4;
@@ -88,7 +88,7 @@
             // 
             radioButton2.AutoSize = true;
             radioButton2.Font = new Font("Mali", 10.8F);
-            radioButton2.Location = new Point(127, 407);
+            radioButton2.Location = new Point(101, 407);
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(268, 42);
             radioButton2.TabIndex = 5;
@@ -130,7 +130,7 @@
             button2.Text = "NEXT";
             button2.UseVisualStyleBackColor = false;
             // 
-            // Form3
+            // Form4
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -144,9 +144,9 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Margin = new Padding(3, 4, 3, 4);
-            Name = "Form3";
-            Text = "Form3";
-            Load += Form3_Load;
+            Name = "Form4";
+            Text = "Form4";
+            Load += Form4_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

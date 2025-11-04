@@ -1,6 +1,6 @@
 ﻿namespace WinFormsApp2
 {
-    partial class Form3
+    partial class Form6 : Form
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form6));
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             pictureBox1 = new PictureBox();
@@ -88,7 +88,7 @@
             // 
             radioButton2.AutoSize = true;
             radioButton2.Font = new Font("Mali", 10.8F);
-            radioButton2.Location = new Point(127, 407);
+            radioButton2.Location = new Point(127, 445);
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(268, 42);
             radioButton2.TabIndex = 5;
@@ -130,7 +130,7 @@
             button2.Text = "NEXT";
             button2.UseVisualStyleBackColor = false;
             // 
-            // Form3
+            // Form6
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -144,9 +144,9 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Margin = new Padding(3, 4, 3, 4);
-            Name = "Form3";
+            Name = "Form6";
             Text = "Form3";
-            Load += Form3_Load;
+            Load += Form6_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();

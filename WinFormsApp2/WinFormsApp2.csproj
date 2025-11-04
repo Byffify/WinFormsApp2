@@ -9,6 +9,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Update="Form6.cs" />
+    <Compile Update="Form9.cs" />
+    <Compile Update="Form8.cs" />
+    <Compile Update="Form7.cs" />
+    <Compile Update="Form5.cs" />
+    <Compile Update="Form4.cs" />
+    <Compile Update="Form5.cs" />
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
