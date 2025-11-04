@@ -65,7 +65,7 @@ namespace WinFormsApp2
         // ✅ BACK → กลับไป Form3
         private void button1_Click(object? sender, EventArgs e)
         {
-            var f3 = new Form5 { Owner = this.Owner }; // owner ควรเป็นตัวเดียวกับก่อนหน้า (เช่น Form2)
+            var f3 = new Form3 { Owner = this.Owner }; // owner ควรเป็นตัวเดียวกับก่อนหน้า (เช่น Form2)
             this.Hide();
             f3.Show();
             f3.FormClosed += (s, args) => this.Close();

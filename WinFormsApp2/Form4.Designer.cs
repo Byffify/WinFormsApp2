@@ -78,7 +78,7 @@
             // 
             radioButton1.AutoSize = true;
             radioButton1.Font = new Font("Mali", 10.8F);
-            radioButton1.Location = new Point(110, 277);
+            radioButton1.Location = new Point(102, 277);
             radioButton1.Margin = new Padding(3, 2, 3, 2);
             radioButton1.Name = "radioButton1";
             radioButton1.Size = new Size(304, 36);
@@ -92,7 +92,7 @@
             // 
             radioButton2.AutoSize = true;
             radioButton2.Font = new Font("Mali", 10.8F);
-            radioButton2.Location = new Point(110, 308);
+            radioButton2.Location = new Point(102, 317);
             radioButton2.Margin = new Padding(3, 2, 3, 2);
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(225, 36);

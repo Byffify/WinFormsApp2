@@ -91,5 +91,10 @@ namespace WinFormsApp2
 
         private void textBox2_TextChanged(object? sender, EventArgs e) { }
         private void pictureBox1_Click(object? sender, EventArgs e) { }
+
+        private void radioButton2_CheckedChanged_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -78,7 +78,7 @@
             // 
             radioButton1.AutoSize = true;
             radioButton1.Font = new Font("Mali", 10.8F);
-            radioButton1.Location = new Point(111, 274);
+            radioButton1.Location = new Point(100, 272);
             radioButton1.Margin = new Padding(3, 2, 3, 2);
             radioButton1.Name = "radioButton1";
             radioButton1.Size = new Size(304, 36);
@@ -92,7 +92,7 @@
             // 
             radioButton2.AutoSize = true;
             radioButton2.Font = new Font("Mali", 10.8F);
-            radioButton2.Location = new Point(111, 305);
+            radioButton2.Location = new Point(100, 312);
             radioButton2.Margin = new Padding(3, 2, 3, 2);
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(225, 36);
@@ -100,6 +100,7 @@
             radioButton2.TabStop = true;
             radioButton2.Text = "B) อยู่บ้านไม่ออกไปข้างนอก";
             radioButton2.UseVisualStyleBackColor = true;
+            radioButton2.CheckedChanged += radioButton2_CheckedChanged_1;
             // 
             // button1
             // 
@@ -148,7 +149,7 @@
             Controls.Add(textBox1);
             Name = "Form9";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form3";
+            Text = "Form9";
             Load += Form9_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

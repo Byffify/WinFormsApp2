@@ -40,12 +40,12 @@
             // 
             textBox1.BackColor = Color.LavenderBlush;
             textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Font = new Font("Mali", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox1.Font = new Font("Mali", 12.7499981F, FontStyle.Regular, GraphicsUnit.Point, 0);
             textBox1.Location = new Point(84, 201);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.ReadOnly = true;
-            textBox1.Size = new Size(410, 295);
+            textBox1.Size = new Size(410, 333);
             textBox1.TabIndex = 1;
             textBox1.TabStop = false;
             textBox1.TextAlign = HorizontalAlignment.Center;
@@ -60,7 +60,7 @@
             button1.FlatAppearance.MouseOverBackColor = Color.Silver;
             button1.FlatStyle = FlatStyle.Popup;
             button1.Font = new Font("Cooper Black", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(232, 540);
+            button1.Location = new Point(220, 561);
             button1.Name = "button1";
             button1.Size = new Size(131, 50);
             button1.TabIndex = 8;

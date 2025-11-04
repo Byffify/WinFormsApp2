@@ -78,7 +78,7 @@
             // 
             radioButton1.AutoSize = true;
             radioButton1.Font = new Font("Mali", 10.8F);
-            radioButton1.Location = new Point(131, 275);
+            radioButton1.Location = new Point(104, 275);
             radioButton1.Margin = new Padding(3, 2, 3, 2);
             radioButton1.Name = "radioButton1";
             radioButton1.Size = new Size(304, 36);
@@ -92,7 +92,7 @@
             // 
             radioButton2.AutoSize = true;
             radioButton2.Font = new Font("Mali", 10.8F);
-            radioButton2.Location = new Point(131, 306);
+            radioButton2.Location = new Point(104, 315);
             radioButton2.Margin = new Padding(3, 2, 3, 2);
             radioButton2.Name = "radioButton2";
             radioButton2.Size = new Size(225, 36);
@@ -148,7 +148,7 @@
             Controls.Add(textBox1);
             Name = "Form5";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form4";
+            Text = "Form5";
             Load += Form5_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
